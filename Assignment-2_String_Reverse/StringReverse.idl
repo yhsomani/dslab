@@ -1,0 +1,6 @@
+module StringReverseApp{
+    interface StringReverse{
+        string Reverse(in string str1);
+        oneway void shutdown();
+    };
+};
